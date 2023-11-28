@@ -1,0 +1,46 @@
+#menu{
+    display: flex;
+    flex-direction: column;
+    width: 46px;
+    gap: 8px;
+    cursor: pointer;
+}
+.menu-line{
+    border:3px solid white; /*Change to white after adding background*/
+    border-radius: 28px;
+    width: 40px;
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+
+    box-sizing: border-box;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 330px;
+    height: 100vh;
+    padding: 37px;
+    background-color:rgba(30, 30, 30, 60%);
+}
+#nav-bar > img{
+    width: 35px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+#nav-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+    
+    width: 100%;
+}
+#nav-container > button{
+    font-size: 1.5em;
+    cursor: pointer;
+}
+

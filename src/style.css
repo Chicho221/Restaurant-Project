@@ -1,0 +1,119 @@
+@font-face{
+    font-family: 'myFont';
+    src: url('./fonts/SedanSC-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background:none;
+
+    font-family: 'myFont';
+    font-weight: 100;
+    color: white;
+}
+#content{
+    
+    display: flex;
+    box-sizing: border-box;
+    background-image: url('./assets/canteen.png');
+    background-size: cover;
+    gap: 10em;
+    /* background-color: rgb(36, 36, 36); */
+    width: 100vw;
+    height: 100vh;
+    padding: 37px 0 37px 37px;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 590px;
+    height: 850px;
+}
+.logo{
+    width: 190px;
+    height: 245px;
+}
+#site-name{
+    align-items: center;
+    font-size: 64px;
+}
+#lines{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+    #line-one{
+        border: 2px solid white;
+        border-radius: 2px;
+        width: 300px;
+    }
+    #line-two{
+        border: 2px solid white;
+        border-radius: 2px;
+        width: 150px;
+    }
+    #line-three{
+        border: 2px solid white;
+        border-radius: 2px;
+        width: 15px;
+    }
+#news-container{
+    margin-top: 1rem;
+    width: 100%;
+    height: 100%;
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 32px;
+}
+
+.news-content{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+.news-bigtab{
+    display: flex;
+    align-items: flex-end;
+
+    background-size: cover;
+    border-radius: 30px;
+    grid-area: 1 / 1 / 2 / 3;
+    width: 100%;
+    height: 100%;
+}
+.news-smalltab{
+    display: flex;
+    align-items: flex-end;
+
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+.news-tab-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:rgba(30, 30, 30, 60%);
+    border-radius: 0 0 29px 29px;
+    width: 100%;
+}
+.news-tab-text h1{
+    font-size: 24px;
+}
+.news-tab-text h2{
+    font-size: 16px;
+    
+}
