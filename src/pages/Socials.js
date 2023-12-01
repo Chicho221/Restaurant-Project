@@ -7,7 +7,7 @@ import '../styles/social-style.css'
 
 function SideIcons () {
     console.log('Socials work')
-    const content = document.getElementById('content');
+    const content_container = document.getElementById('content_container');
     const iconsArr = [
         {
             name: 'Music',
@@ -57,8 +57,8 @@ function SideIcons () {
 
         socials.appendChild(socialSquere);
     }
-    content.appendChild(socials)
-    return content;
+    content_container.appendChild(socials)
+    return content_container;
 }
 
 export default SideIcons;

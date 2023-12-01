@@ -14,17 +14,29 @@
     color: white;
 }
 #content{
-    
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     box-sizing: border-box;
     background-image: url('./assets/canteen.png');
     background-size: cover;
-    gap: 10em;
     /* background-color: rgb(36, 36, 36); */
     width: 100vw;
     height: 100vh;
     padding: 37px 0 37px 37px;
 }
+#content_header{
+
+}
+
+#content_container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7em;
+    
+}
+
+
 
 #main{
     display: flex;

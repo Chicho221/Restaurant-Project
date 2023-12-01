@@ -2,9 +2,10 @@ import '../styles/nav-style.css'
 import Listeners from '../functions/listeners.js';
 import HomePage from '../pages/HomePage.js'
 import XImage from '../assets/X.png'
+import Logo from '../assets/logo.png'
 
 function Nav() {
-    const content = document.getElementById('content');
+    const contentHeader = document.getElementById('content_header');
 
     //Button for opening bar
     const menuButton = document.createElement('button');
@@ -15,7 +16,7 @@ function Nav() {
 
         menuButton.appendChild(line);
     }
-    content.appendChild(menuButton);
+    contentHeader.appendChild(menuButton);
 
     //Nav bar from left
     const navArr = [
@@ -32,7 +33,6 @@ function Nav() {
     const NavBar = document.createElement('div');
     NavBar.id = 'nav-bar';
     NavBar.style.display = 'none';
-    /* NavBar.setAttribute('status','0'); */
         const X = document.createElement('img');
         X.src = XImage
         NavBar.appendChild(X);

@@ -2,9 +2,9 @@ import logoPath from '../assets/logo.png';
 import newsBigPath from '../assets/bigtab.jpg';
 import newsSmallOnePath from '../assets/smalltabone.jpg';
 import newsSmallTwoPath from '../assets/smalltabtwo.png';
-import Socials from '../pages/Socials.js';
-import Nav from '../pages/Nav.js';
-import Reload from '../pages/Reload.js';
+import Nav from "./Nav";
+import Reload from "./Reload"
+import Socials from "./Socials"
 
 function HomePage() {
     //Reloades page
@@ -95,7 +95,7 @@ function HomePage() {
     main.appendChild(lines);
     main.appendChild(news);
 
-    content.appendChild(main);
+    content_container.appendChild(main);
 
     //Create Social buttons
     Socials();
