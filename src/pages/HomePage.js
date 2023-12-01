@@ -2,16 +2,9 @@ import logoPath from '../assets/logo.png';
 import newsBigPath from '../assets/bigtab.jpg';
 import newsSmallOnePath from '../assets/smalltabone.jpg';
 import newsSmallTwoPath from '../assets/smalltabtwo.png';
-import Nav from "./Nav";
-import Reload from "./Reload"
-import Socials from "./Socials"
 
 function HomePage() {
-    //Reloades page
-    Reload();
-    //Creates Nav
-    Nav();
-    
+
     //Creates main body contents of HomePage
     const main = document.createElement('div');
     main.id = 'main';
@@ -96,9 +89,6 @@ function HomePage() {
     main.appendChild(news);
 
     content_container.appendChild(main);
-
-    //Create Social buttons
-    Socials();
     return content;
 }
 

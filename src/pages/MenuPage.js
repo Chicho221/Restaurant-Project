@@ -1,14 +1,9 @@
-import Nav from "./Nav";
-import Reload from "./Reload"
-import Socials from "./Socials"
 import picas from "../assets/bigtab.jpg"
 import zennyIcon from "../assets/zenny-icon.png"
 
 import '../styles/menu-style.css'
 
 function Menu(){
-    Reload();
-    Nav();
 
     //Menu here
     const dishes = [
@@ -60,8 +55,6 @@ function Menu(){
 
     content_container.appendChild(main);
     //
-    
-    Socials();
     return content;
 }
 

@@ -1,8 +1,6 @@
 import '../styles/nav-style.css'
 import Listeners from '../functions/listeners.js';
-import HomePage from '../pages/HomePage.js'
 import XImage from '../assets/X.png'
-import Logo from '../assets/logo.png'
 
 function Nav() {
     const contentHeader = document.getElementById('content_header');
@@ -27,7 +25,7 @@ function Nav() {
             name: 'Menu',
         },
         {
-            name: 'Contact',
+            name: 'About',
         },
     ]
     const NavBar = document.createElement('div');

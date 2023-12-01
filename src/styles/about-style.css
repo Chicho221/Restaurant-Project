@@ -1,0 +1,28 @@
+#main_about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr 2fr;
+    background-color: rgba(30,30,30, 0.6);
+    height: 482px;
+    width: 795px;
+    margin-top: auto;
+    padding: 1em;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#about-content{
+    grid-area: 1 / 1 / 2 / 3;
+    border-bottom: 3px solid white;
+    border-radius: 3px;
+    padding: 5px;
+}
+#about-contact{
+    border-right: 1.5px solid white;
+    padding: 5px;
+}
+#about-location{
+    border-left: 1.5px solid white;
+    padding: 5px;
+}
+
